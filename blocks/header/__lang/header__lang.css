@@ -2,7 +2,13 @@
     display: flex;
     list-style-type: none;
     align-items: flex-end;
-    height: 100%;
     margin: 0;
     padding: 0;
+}
+@media screen and (max-width: 320px){
+    .header__lang{
+        align-items: center;
+        margin-top: 14px;
+        max-height: 22px;
+    }
 }

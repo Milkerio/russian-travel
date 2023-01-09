@@ -5,9 +5,17 @@
     margin: 92px auto 0;
     align-items: flex-start;
 }
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 93.75%;
+    margin: 88px auto 0 48px;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .intro {
       max-width: 93.75%;
+      margin: 0 auto;
       margin-top: 88px;
     }
   }
