@@ -24,6 +24,6 @@
       margin: 64px auto;
       max-width: 90%;
       gap: 12px;
-      grid-template-columns: repeat(auto-fit, minmax(288px, 1fr))
+      grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     }
   }
