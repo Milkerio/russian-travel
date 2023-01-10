@@ -12,6 +12,13 @@
     max-width: 93.75%;
   }
 }
+@media screen and (max-width: 720px) {
+  .lead__title {
+      max-width: 90%;
+      font-size: 35px;
+      line-height: 36px;
+  }
+}
 @media screen and (max-width: 320px) {
     .lead__title {
       max-width: 90%;
